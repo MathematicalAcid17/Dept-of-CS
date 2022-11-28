@@ -1,0 +1,23 @@
+{
+  "name": "dept-of-cs",
+  "version": "1.0.0",
+  "description": "link to Whimsical - https://whimsical.com/plan-W7FtBufWRR4ACZqcDh5xqt",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build src/style.css -o dist/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MathematicalAcid17/Dept-of-CS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MathematicalAcid17/Dept-of-CS/issues"
+  },
+  "homepage": "https://github.com/MathematicalAcid17/Dept-of-CS#readme",
+  "dependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
