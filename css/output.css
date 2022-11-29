@@ -513,7 +513,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.bg-red-600 {
+.navbar {
+  position: absolute;
+  height: 74px;
+  width: 1025px;
   --tw-bg-opacity: 1;
-  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
+  background-color: rgb(4 74 156 / var(--tw-bg-opacity));
 }
