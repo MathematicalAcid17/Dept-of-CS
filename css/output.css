@@ -525,10 +525,6 @@ video {
   background-color: rgb(4 74 156 / var(--tw-bg-opacity));
 }
 
-.text-\[25px\] {
-  font-size: 25px;
-}
-
 @media (min-width: 768px) {
   .md\:container {
     width: 100%;
