@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
 /*
 ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com
 */
@@ -419,7 +421,7 @@ video {
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -466,7 +468,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -513,7 +515,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.navbar {
+.navbar{
   position: absolute;
   top: 133px;
   left: 15%;
@@ -524,7 +526,7 @@ video {
   background-color: rgb(255 210 51 / var(--tw-bg-opacity));
 }
 
-.headbar {
+.headbar{
   position: absolute;
   top: 0px;
   height: 59px;
@@ -537,56 +539,90 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.navBarElements {
+.navBarElements{
   float: left;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.absolute {
+.absolute{
   position: absolute;
 }
 
-.relative {
+.relative{
   position: relative;
 }
 
-.bottom-1 {
+.bottom-1{
   bottom: 0.25rem;
 }
 
-.right-\[70px\] {
+.right-\[70px\]{
   right: 70px;
 }
 
-.right-0 {
+.right-0{
   right: 0px;
 }
 
-.ml-8 {
+.top-\[638px\]{
+  top: 638px;
+}
+
+.right-\[430px\]{
+  right: 430px;
+}
+
+.ml-8{
   margin-left: 2rem;
 }
 
-.inline-block {
+.mr-1{
+  margin-right: 0.25rem;
+}
+
+.inline-block{
   display: inline-block;
 }
 
-.flex {
+.flex{
   display: flex;
 }
 
-.w-\[85\%\] {
+.w-\[85\%\]{
   width: 85%;
 }
 
-.items-center {
+.w-\[72\%\]{
+  width: 72%;
+}
+
+.items-center{
   align-items: center;
 }
 
-.justify-center {
+.justify-center{
   justify-content: center;
 }
 
-.text-\[20px\] {
+.justify-evenly{
+  justify-content: space-evenly;
+}
+
+.text-\[20px\]{
   font-size: 20px;
+}
+
+.leading-\[30\.26px\]{
+  line-height: 30.26px;
+}
+
+.text-\[\#285CB7\]{
+  --tw-text-opacity: 1;
+  color: rgb(40 92 183 / var(--tw-text-opacity));
+}
+
+.text-\[\#10316B\]{
+  --tw-text-opacity: 1;
+  color: rgb(16 49 107 / var(--tw-text-opacity));
 }
