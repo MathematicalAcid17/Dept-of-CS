@@ -12,6 +12,7 @@
         @apply absolute bg-primary top-0 w-full h-[59px] rounded-br-[25px] rounded-bl-[25px] text-white;
     }
 
+
     .navBarElements{
         @apply float-left text-white;
     }
