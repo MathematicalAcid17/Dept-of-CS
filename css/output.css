@@ -513,19 +513,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.navbar {
-  position: absolute;
-  top: 133px;
-  left: 14%;
-  margin-left: auto;
-  margin-right: auto;
-  height: 59px;
-  width: 1030px;
-  border-radius: 35px;
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 210 51 / var(--tw-bg-opacity));
-}
-
 .headbar {
   position: absolute;
   top: 0px;
@@ -539,14 +526,65 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.navbar {
+  position: absolute;
+  top: 133px;
+  left: 14%;
+  height: 59px;
+  width: 70%;
+  border-radius: 35px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 210 51 / var(--tw-bg-opacity));
+}
+
 .navBarElements {
   float: left;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.right-\[60px\] {
+  right: 60px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.ml-8 {
+  margin-left: 2rem;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
 .flex {
   display: flex;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.w-\[85\%\] {
+  width: 85%;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .text-\[20px\] {
