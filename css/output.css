@@ -524,3 +524,7 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(4 74 156 / var(--tw-bg-opacity));
 }
+
+.text-\[20px\] {
+  font-size: 20px;
+}
