@@ -551,24 +551,16 @@ video {
   position: relative;
 }
 
-.right-\[60px\] {
-  right: 60px;
-}
-
-.right-0 {
-  right: 0px;
-}
-
 .bottom-1 {
   bottom: 0.25rem;
 }
 
-.bottom-\[2px\] {
-  bottom: 2px;
-}
-
 .right-\[70px\] {
   right: 70px;
+}
+
+.right-0 {
+  right: 0px;
 }
 
 .ml-8 {
@@ -583,10 +575,6 @@ video {
   display: flex;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .w-\[85\%\] {
   width: 85%;
 }
@@ -597,10 +585,6 @@ video {
 
 .justify-center {
   justify-content: center;
-}
-
-.align-bottom {
-  vertical-align: bottom;
 }
 
 .text-\[20px\] {
