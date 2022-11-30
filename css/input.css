@@ -5,7 +5,12 @@
 @layer components {
 
     .navbar {
-        @apply absolute bg-primary h-[74px] w-[1025px]  top-0 right-0 rounded-tl-[55px] rounded-bl-[55px];
+        @apply absolute bg-primary h-[59px] w-[72%]  top-0 ml-auto mr-auto rounded-tl-[55px] rounded-bl-[55px];
     }
+
+    .navBarElements{
+        @apply float-left text-white;
+    }
+
 
 }

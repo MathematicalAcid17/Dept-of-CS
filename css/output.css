@@ -516,9 +516,10 @@ video {
 .navbar {
   position: absolute;
   top: 0px;
-  right: 0px;
-  height: 74px;
-  width: 1025px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 59px;
+  width: 72%;
   border-top-left-radius: 55px;
   border-bottom-left-radius: 55px;
   --tw-bg-opacity: 1;
@@ -527,4 +528,10 @@ video {
 
 .text-\[20px\] {
   font-size: 20px;
+}
+
+.children\:navBarElements > * {
+  float: left;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
