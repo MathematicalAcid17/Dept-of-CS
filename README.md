@@ -7,7 +7,7 @@ Link to Notion - https://western-dungeon-6ad.notion.site/2d3f555b1f9040dd895f02a
 
 
 ### Quick Start
-Kindly follow instructions if you're new a user.
+Kindly follow instructions if you're a new user.
  
 #### Rebuild depedencies (For New Developers)
 ````
