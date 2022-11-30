@@ -515,15 +515,15 @@ video {
 
 .navbar {
   position: absolute;
-  top: 0px;
+  top: 133px;
+  left: 14%;
   margin-left: auto;
   margin-right: auto;
   height: 59px;
-  width: 72%;
-  border-top-left-radius: 55px;
-  border-bottom-left-radius: 55px;
+  width: 1030px;
+  border-radius: 35px;
   --tw-bg-opacity: 1;
-  background-color: rgb(4 74 156 / var(--tw-bg-opacity));
+  background-color: rgb(255 210 51 / var(--tw-bg-opacity));
 }
 
 .headbar {
@@ -535,6 +535,12 @@ video {
   border-bottom-left-radius: 25px;
   --tw-bg-opacity: 1;
   background-color: rgb(4 74 156 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.navBarElements {
+  float: left;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }

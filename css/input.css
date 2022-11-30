@@ -5,7 +5,7 @@
 @layer components {
 
     .navbar {
-        @apply absolute bg-primary h-[59px] w-[72%]  top-0 ml-auto mr-auto rounded-tl-[55px] rounded-bl-[55px];
+        @apply absolute bg-secondary h-[59px] w-[1030px]  top-[133px] left-[14%] ml-auto mr-auto rounded-[35px];
     }
 
     .headbar {
