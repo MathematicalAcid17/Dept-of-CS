@@ -525,6 +525,63 @@ video {
   background-color: rgb(4 74 156 / var(--tw-bg-opacity));
 }
 
+.headbar {
+  position: absolute;
+  top: 0px;
+  height: 59px;
+  width: 100%;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(4 74 156 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.float-left {
+  float: left;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
 .text-\[20px\] {
   font-size: 20px;
 }

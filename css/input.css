@@ -8,4 +8,8 @@
         @apply absolute bg-primary h-[74px] w-[1025px]  top-0 right-0 rounded-tl-[55px] rounded-bl-[55px];
     }
 
+    .headbar {
+        @apply absolute bg-primary top-0 w-full h-[59px] rounded-br-[25px] rounded-bl-[25px] text-white;
+    }
+
 }
