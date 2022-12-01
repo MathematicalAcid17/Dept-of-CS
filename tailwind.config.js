@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         Inter: ['Inter', 'sans-serif'],
+        Roboto:['Roboto', 'sans-serif'],
        },
       colors: {
         primary: '#044A9C',
