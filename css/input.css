@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,11 +8,14 @@
 @layer components {
 
     .navbar {
-        @apply absolute bg-secondary h-[59px] w-[70%]  top-[133px] left-[15%] rounded-[35px];
+        @apply absolute bg-secondary h-[59px] w-[70%] top-[133px] left-[15%] rounded-[35px];
     }
 
     .headbar {
         @apply absolute bg-primary top-0 w-full h-[59px] rounded-br-[42px] rounded-bl-[42px] text-white;
+    }
+    .cropImage {
+        clip-path: polygon(100% 0%, 100% 58%, 0% 76%, 0% 0%)
     }
 
 
