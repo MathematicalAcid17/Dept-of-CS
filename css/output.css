@@ -588,6 +588,11 @@ video {
         @apply float-left text-white;
     } */
 
+.rotateEffect{
+  -webkit-clip-path: polygon(100% 0, 100% 85%, 0 100%, 0 14%);
+          clip-path: polygon(100% 0, 100% 85%, 0 100%, 0 14%);
+}
+
 .absolute{
   position: absolute;
 }
