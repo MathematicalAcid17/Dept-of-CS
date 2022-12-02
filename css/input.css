@@ -9,7 +9,7 @@
 @layer components {
 
     .navbar {
-        @apply absolute bg-secondary h-[59px] w-[70%] top-[133px] left-[15%] rounded-[35px];
+        @apply absolute bg-secondary;
     }
 
     .headbar {
@@ -28,7 +28,7 @@
     } */
 
     .rotateEffect{
-        clip-path: polygon(100% 0, 100% 85%, 0 100%, 0 14%);
+        clip-path: polygon(100% 0, 100% 85%, 0 100%, 0 15%);
     }
 
 
