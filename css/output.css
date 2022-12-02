@@ -526,7 +526,7 @@ video {
 .headbar{
   position: absolute;
   top: 0px;
-  height: 59px;
+  height: 4.09vw;
   width: 100%;
   border-bottom-right-radius: 42px;
   border-bottom-left-radius: 42px;
@@ -542,8 +542,8 @@ video {
 }
 
 .cropFooter {
-  -webkit-clip-path: polygon(100% 100%, 100% 0, 0 18%, 0 100%);
-          clip-path: polygon(100% 100%, 100% 0, 0 18%, 0 100%);
+  -webkit-clip-path: polygon(100% 100%, 100% 0, 0 15%, 0 100%);
+          clip-path: polygon(100% 100%, 100% 0, 0 15%, 0 100%);
 }
 
 /* .navBarElements{
@@ -613,6 +613,10 @@ video {
 
 .left-\[19\.65vw\]{
   left: 19.65vw;
+}
+
+.top-\[-8\.3vw\]{
+  top: -8.3vw;
 }
 
 .z-\[-11\]{

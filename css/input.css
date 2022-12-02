@@ -11,13 +11,13 @@
     }
 
     .headbar {
-        @apply absolute bg-primary top-0 w-full h-[59px] rounded-br-[42px] rounded-bl-[42px] text-white;
+        @apply absolute bg-primary top-0 w-full h-[4.09vw] rounded-br-[42px] rounded-bl-[42px] text-white;
     }
     .cropImage {
         clip-path: polygon(100% 0%, 100% 58%, 0% 76%, 0% 0%);
     }
     .cropFooter {
-        clip-path: polygon(100% 100%, 100% 0, 0 18%, 0 100%);
+        clip-path: polygon(100% 100%, 100% 0, 0 15%, 0 100%);
     }
 
 
