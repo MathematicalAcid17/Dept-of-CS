@@ -25,7 +25,7 @@
     } */
 
     .rotateEffect{
-        clip-path: polygon(100% 0, 100% 85%, 0 100%, 0 14%);
+        clip-path: polygon(100% 0, 100% 85%, 0 100%, 0 15%);
     }
 
 
