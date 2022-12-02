@@ -581,12 +581,7 @@ video {
 
 .cropImage {
   -webkit-clip-path: polygon(100% 0%, 100% 58%, 0% 76%, 0% 0%);
-          clip-path: polygon(100% 0%, 100% 58%, 0% 76%, 0% 0%);
-}
-
-.cropFooter {
-  -webkit-clip-path: polygon(100% 100%, 100% 0, 0 18%, 0 100%);
-          clip-path: polygon(100% 100%, 100% 0, 0 18%, 0 100%);
+          clip-path: polygon(100% 0%, 100% 58%, 0% 76%, 0% 0%)
 }
 
 /* .navBarElements{
@@ -746,12 +741,12 @@ video {
   height: 518px;
 }
 
-.h-\[129px\]{
-  height: 129px;
-}
-
 .h-\[650px\]{
   height: 650px;
+}
+
+.h-\[129px\]{
+  height: 129px;
 }
 
 .w-\[85\%\]{
