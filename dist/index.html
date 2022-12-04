@@ -8,6 +8,7 @@
   <title>DeptOfCS</title>
   <link rel="stylesheet" href=".././css/output.css">
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 </head>
 
 <body class="overflow-x-hidden">
@@ -115,12 +116,12 @@
 
       <div class="flex justify-center items-center w-[48.4vw]">
         <div class="mr-[4.93vw] text-center">
-          <span class="block text-[4.51vw] text-[#FFD233] font-bold">100+</span>
+          <span class="block text-[4.51vw] text-[#FFD233] font-bold"><span id="count">100</span>+</span>
           <span class="text-[2.08vw] text-[#044A9C] font-normal">Students</span>
         </div>
 
         <div class="text-center">
-          <span class="block text-[4.51vw] text-[#FFD233] font-bold">500+</span>
+          <span class="block text-[4.51vw] text-[#FFD233] font-bold"><span id="count2">500</span>+</span>
           <span class="text-[2.08vw] text-[#044A9C] font-normal">Alumni</span>
         </div>
       </div>
@@ -223,6 +224,32 @@
   }
   fetch_head_navbar('./reusables/head_navbar.html', 'nav_head');
   // fetch_head_navbar('./reusables/footer.html', 'footer');
+
+  
+  $('#count').each(function() {
+  $(this).prop('Counter', 0).animate({
+    Counter: $(this).text()
+  }, {
+    duration: 8000,
+    easing: 'swing',
+    step: function(now) {
+      $(this).text(Math.ceil(now));
+    }
+  });
+});
+
+ 
+$('#count2').each(function() {
+  $(this).prop('Counter', 0).animate({
+    Counter: $(this).text()
+  }, {
+    duration: 8000,
+    easing: 'swing',
+    step: function(now) {
+      $(this).text(Math.ceil(now));
+    }
+  });
+});
 
 </script>
 
