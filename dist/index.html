@@ -217,59 +217,59 @@
 
 <script>
 
-  let count=0;
+  var count = 0;
 
-window.addEventListener('scroll', function() {
-	var element = document.querySelector('#faculties');
-	var position = element.getBoundingClientRect();
+  window.addEventListener('scroll', function () {
+    var element = document.querySelector('#faculties');
+    var position = element.getBoundingClientRect();
 
-	// // checking whether fully visible
-	// if(position.top >= 0 && position.bottom <= window.innerHeight) {
-	// 	console.log('Element is fully visible in screen');
-	// }
+    // // checking whether fully visible
+    // if(position.top >= 0 && position.bottom <= window.innerHeight) {
+    // 	console.log('Element is fully visible in screen');
+    // }
 
-	// checking for partial visibility
-	if(position.top < window.innerHeight && position.bottom >= 0) {
-    count++;
-    if(count==1){
-      counterIncrease()
+    // checking for partial visibility
+    if (position.top < window.innerHeight && position.bottom >= 0) {
+      count++;
+      if (count == 1) {
+        console.log("working");
+        $('#count').each(function () {
+          $(this).prop('Counter', 0).animate({
+            Counter: $(this).text()
+          }, {
+            duration: 8000,
+            easing: 'swing',
+            step: function (now) {
+              $(this).text(Math.ceil(now));
+            }
+          });
+        });
+
+
+        $('#count2').each(function () {
+          $(this).prop('Counter', 0).animate({
+            Counter: $(this).text()
+          }, {
+            duration: 8000,
+            easing: 'swing',
+            step: function (now) {
+              $(this).text(Math.ceil(now));
+            }
+          });
+        });
+      }
+
+
+
     }
-    
-
-		
-	}
-});
+  });
 
 
 
-  function counterIncrease() {
-    console.log("working");
-    $('#count').each(function () {
-      $(this).prop('Counter', 0).animate({
-        Counter: $(this).text()
-      }, {
-        duration: 8000,
-        easing: 'swing',
-        step: function (now) {
-          $(this).text(Math.ceil(now));
-        }
-      });
-    });
+  // function counterIncrease() {
 
 
-    $('#count2').each(function () {
-      $(this).prop('Counter', 0).animate({
-        Counter: $(this).text()
-      }, {
-        duration: 8000,
-        easing: 'swing',
-        step: function (now) {
-          $(this).text(Math.ceil(now));
-        }
-      });
-    });
-
-  }
+  // }
 
 
 
